@@ -1,0 +1,191 @@
+/* /////////////////////////// header */
+
+
+:root {
+    --Verde:#46D7AB;
+    --vermelho:#FB6C6C;
+    --azul:#4676A4;
+    --amarelo:#FFB87D;
+    --branco:#ffffff;
+    --cinza:#E5E5E5;
+    --preto:#303943;
+    --verde-escuro:#3E8570;
+    --vermelho-escuro:#DE5050;
+    --azul-escuro:#4689C7;
+    --amarelo-escuro:#FBCD66;
+    --font:'Circular Std';
+    
+}
+
+body {
+    background-color: var(--branco);
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.botao_voltar {
+    position: relative;
+    justify-content: baseline;
+    padding: 0 2rem;
+    top: -1.7rem;
+}
+
+.imagem_lista {
+    position: relative;
+    left: 50%;
+    top: -1.9rem;
+}
+
+.pokedex {
+    color: var(--preto);
+    font-size: 30px;
+    font-family: var(--font);
+    padding: 0 2rem;
+}
+
+.pokedex::first-letter{
+    text-transform: uppercase;
+}
+
+.imagem_pokebola {
+    position: relative;
+}
+
+/* /////////////////////////// header */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-items: flex-start;
+    /* padding: 0 35rem 0 35rem; */
+}
+
+.card {
+    width: 10rem;
+    height: 8rem;
+    margin: 0.8rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+
+.card_dados {
+
+    padding-top: 0.6rem;
+    width: 5rem;
+    padding-left: 0.5rem;
+}
+
+
+
+.nome_pokemon {
+    max-width: 5rem;
+}
+
+.teste {
+
+
+    
+
+}
+
+
+.imagem_pokemon {
+
+    width: 4rem;
+    height: 4rem;
+    margin-top: 2.5rem;
+    position: absolute;
+}
+
+.numero_pokemon {
+
+    position: absolute;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    
+}
+
+.card_dados {
+    margin-top: 0.8rem;
+    
+    
+}
+
+.pokemon_types{
+    width: 2.8rem;
+    font-size: 1rem;
+}
+
+.pokemon_type {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    gap: 1rem;
+    background-color: var(--cinza);
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nome_pokemon::first-letter{
+    text-transform: uppercase;
+}
+
+.tipo_pokemon::first-letter {
+    text-transform: uppercase;
+}
+
+.grama {
+    background-color: var(--Verde);
+}
+
+.fire {
+    background-color: var(--vermelho);
+}
+
+.agua {
+    background-color: var(--azul-escuro);
+}
+
+.eletro {
+    background-color: var(--amarelo);
+}
+
+
+
