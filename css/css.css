@@ -67,9 +67,9 @@ body {
 }
 
 .card {
-    width: 10rem;
+    width: 10.7rem;
     height: 8rem;
-    margin: 0.8rem;
+    margin: 0.5rem;
     border-radius: 1rem;
     display: flex;
     flex-wrap: wrap;
@@ -81,13 +81,14 @@ body {
 .card_dados {
 
     padding-top: 0.6rem;
-    width: 5rem;
+    width: 4.5rem;
     padding-left: 0.5rem;
 }
 
 
 
 .nome_pokemon {
+    color: var(--branco);
     max-width: 5rem;
 }
 
@@ -109,6 +110,7 @@ body {
 
 .numero_pokemon {
 
+    color: var(--verde-escuro);
     position: absolute;
     margin-left: 7rem;
     margin-top: 1rem;
