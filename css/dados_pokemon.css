@@ -1,0 +1,291 @@
+:root {
+    --verde:#46D7AB;
+    --vermelho:#FB6C6C;
+    --azul:#4676A4;
+    --amarelo:#FFB87D;
+    --branco:#ffffff;
+    --cinza:#E5E5E5;
+    --preto:#303943;
+    --verde-normal:#48D0B0;
+    --outro-verde:#57e1c1eb;
+    --verde-escuro:#3E8570;
+    --vermelho-escuro:#DE5050;
+    --azul-escuro:#4689C7;
+    --amarelo-escuro:#FBCD66;
+    --font:'Circular Std';
+    
+}
+
+body {
+    background-color: var(--verde-normal);
+}
+
+.cabecalho {
+    background-color: var(--verde-normal);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.botao_voltar{
+    
+    position: absolute;
+    padding: 1rem;
+
+}
+
+.quadrado {
+    /* transform: rotate(-30deg);
+    position: absolute; */
+}
+
+.pontinhos {
+    align-self: flex-start;
+    padding: 0.2rem 0 0 8rem;
+}
+
+.favorito {
+    padding-right: 1rem;
+}
+
+
+
+
+/* /////////////////////////// header */
+
+
+.nome_pokemon::first-letter{
+    text-transform: uppercase;
+}
+
+.pokemon_type::first-letter {
+    text-transform: uppercase;
+}
+
+.pokemon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--verde-normal);
+}
+
+.nome_pokemon {
+    color: var(--branco);
+    font-size: 36px;
+}
+
+.pokemon_types {
+    color: var(--branco);
+    min-width: 4.4rem;
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.3rem 0 0.3rem 0;
+    
+}
+
+.pokemon_type {
+    background: var(--outro-verde);
+    border-radius: 1rem;
+    text-align: center;
+    justify-content: center;
+    padding: 0.4rem;
+    
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    gap: 1.3rem;
+    
+}
+
+.feature {
+    color: var(--branco);
+
+    
+}
+
+.numero_pokemon {
+
+    color: var(--branco);
+    
+}
+
+/************************ pokemon escolhido *****************************************/
+
+
+
+.pokemon_escolhido {
+    display: flex;
+    width: 23.438rem;
+    height: 12rem;
+    background-color: var(--verde-normal);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imagem_pokemon {
+    
+    transform: translate(26%, 18%);
+    width: 14.625rem;
+    height: 13rem;
+}
+
+
+.detalhe {
+    width: 2rem;
+    height: 5rem;
+}
+
+/************************ About *****************************************/
+
+.opcoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--branco);
+    border-top-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    height: 6rem;
+    gap: 2rem;
+}
+
+/************************ descricao *****************************************/
+
+.descricao {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    background-color: var(--branco);
+    padding: 0 0.9rem 0 0.9rem;
+    font-size: 0.9rem;
+}
+
+/************************ especificacoes *****************************************/
+
+.sobre {
+    background-color: var(--branco);
+    padding: 1rem;
+}
+
+.teste1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 1rem 0 var(--cinza);
+    border-radius: 1rem;
+
+}
+
+.altura {
+    color: var(--cinza);
+}
+
+.peso {
+    color: var(--cinza);
+}
+
+/************************ genero *****************************************/
+
+.como_reproduz {
+    background-color: var(--branco);
+    
+}
+
+.reproducao {
+    padding: 0.5rem 0.9rem 0.5rem 0.9rem;
+    
+    
+}
+
+
+
+.genero {
+    display: flex;
+    gap: 0.3rem;
+}
+
+.teste2 {
+    padding: 0rem 0.9rem 0rem 0.9rem;
+    color: var(--cinza);
+    
+}
+
+.masculino {
+    padding-left: 4.1rem;
+}
+
+.Grupo_de-ovos {
+    width: 6.2rem;
+    color: var(--cinza);
+}
+
+.especie {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0.5rem 0.9rem 0.5rem 0.9rem;
+    gap: 2rem;
+    
+}
+
+.Periodo_do-ovo {
+    width: 6.2rem;
+    color: var(--cinza);
+}
+
+.elemento {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0.5rem 0.9rem 0.5rem 0.9rem;
+    gap: 2rem;
+    
+}
+
+/************************ localização *****************************************/
+
+.localizacao {
+    background-color: var(--branco);
+}
+
+.local {
+    padding: 0.9rem;
+}
+
+.mapa  {
+    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 20rem;
+    height: 8.875rem;
+    border-radius: 1rem;
+    padding: 0.9rem;
+}
+
+/*adsdasdasd  */
+
+.xp {
+    display: grid;
+    background-color: var(--branco);
+    padding: 0.9rem;
+    
+}
+
+.treinamento {
+    padding-bottom: 1rem;
+}
+
+.experiencia {
+    color: var(--cinza);
+}
+
+.xp_area {
+    display: flex;
+    gap: 4rem;
+}
+

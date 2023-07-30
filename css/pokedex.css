@@ -46,6 +46,7 @@ body {
     font-size: 30px;
     font-family: var(--font);
     padding: 0 2rem;
+    transform: translate(0, -300%);
 }
 
 .pokedex::first-letter{
@@ -64,6 +65,7 @@ body {
     align-items: flex-start;
     justify-items: flex-start;
     /* padding: 0 35rem 0 35rem; */
+    transform: translate(0, -10%);
 }
 
 .card {
@@ -188,6 +190,19 @@ body {
 .eletro {
     background-color: var(--amarelo);
 }
+
+
+
+/* ////////////////////// dados pokemon //////////////////////// */
+
+
+
+
+
+
+
+
+
 
 
 
