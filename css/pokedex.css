@@ -118,11 +118,11 @@ body {
     margin-top: 3rem;
     position: absolute;
     transform: translate(15%, 0%);
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .mini_bokebola {
-    z-index: 2;
+    /* z-index: 2; */
     width: 88px;
     height: 88px;
     position: absolute;
@@ -241,12 +241,84 @@ body {
 
 
 
+/* Botao */
+
+.menu {
+    /* display: block;
+    position: absolute;
+    background: var(--azul); */
+}
+
+.botao {
+
+    display: flex;
+    width: 375px;
+    background-color: #3E8570;
+    justify-content: flex-end;
+    transform: translate(0%, -100%);
+
+    
+}
+
+.button_container {
+    display: block;
+    position: absolute;
+    gap: 0.5rem;
+    transform: translate(0%, -103%);
+    /* padding-right: 2rem; */
+    background: var(--outro-verde);
+    text-align: center;
+    width: 100%;
+    height: calc(100vh + 200px);
+    z-index: 4;
+
+}
+
+.button_li {
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+    background-color: var(--branco);
+    border-radius: 0.5rem;
+    padding: 0 1.5rem 0 1rem;
+    width: auto;
+    gap: 1rem;
+    margin: 1rem auto;
+    /* transform: translate(-21%, -300%); */
+    
+
+}
 
 
+.label-menu,
+.checkbox {
+    display: none;
+    padding-right: 2rem;
+}
 
+.hamburger {
+    border-top: 0.125rem solid;
+    width: 1.25rem;
+    
+}
 
+.label-menu {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--branco);
+    padding-block: 1rem;
+    cursor: pointer;
+}
 
-
-
+.hamburger::before,
+.hamburger::after {
+    content: " ";
+    display: block;
+    width: 1.25rem;
+    height: 0.125rem;
+    background: currentColor;
+    margin-top: 0.3125rem;
+}
 
 
